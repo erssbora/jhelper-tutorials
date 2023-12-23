@@ -28,12 +28,12 @@ class SpringMultiConfigurationTest {
     // Retrieve bean
     Circle circleBean = applicationContext.getBean(Circle.class);
     assertNotNull(circleBean);
-    assertEquals(78.53975, circleBean.area(5));
+    assertEquals(78.53981633974483, circleBean.area(5));
 
     // Retrieve bean
     Cone coneBean = applicationContext.getBean(Cone.class);
     assertNotNull(coneBean);
-    assertEquals(235.61925, coneBean.area(5, 10));
+    assertEquals(235.61944901923448, coneBean.area(5, 10));
   }
 
   @Test
@@ -51,7 +51,7 @@ class SpringMultiConfigurationTest {
     // Retrieve bean
     Sphere sphereBean = applicationContext.getBean(Sphere.class);
     assertNotNull(sphereBean);
-    assertEquals(50.26544, sphereBean.area(2));
+    assertEquals(50.26548245743669, sphereBean.area(2));
   }
 
   @Test

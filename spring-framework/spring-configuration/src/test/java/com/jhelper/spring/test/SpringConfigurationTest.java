@@ -33,7 +33,7 @@ class SpringConfigurationTest {
     // Retrieve bean from the Spring container
     Circle circleBean = applicationContext.getBean(Circle.class);
     assertNotNull(circleBean);
-    assertEquals(78.53975, circleBean.area(5));
+    assertEquals(78.53981633974483, circleBean.area(5));
   }
 
   @Test

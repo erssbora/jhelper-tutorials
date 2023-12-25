@@ -6,7 +6,7 @@ This module includes examples demonstrating the configuration for the Applicatio
 
 
 ### Build the Project
-Build this project by executing the maven command `mvn clean install` from the Command prompt or Terminal.
+Build this module by executing the maven command `mvn clean install` from the Command prompt or Terminal.
 
 ### Relevant tutorials
 ***TODO ***

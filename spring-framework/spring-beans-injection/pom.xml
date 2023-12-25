@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>spring-beans</artifactId>
+    <artifactId>spring-beans-injection</artifactId>
 
     <dependencies>
         <dependency>

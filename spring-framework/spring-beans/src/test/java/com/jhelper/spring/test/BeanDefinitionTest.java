@@ -4,6 +4,8 @@ import com.jhelper.spring.beans.Cone;
 import com.jhelper.spring.beans.Cube;
 import com.jhelper.spring.beans.Cuboid;
 import com.jhelper.spring.beans.Cylinder;
+import com.jhelper.spring.beans.Hemisphere;
+import com.jhelper.spring.beans.RectangularPrism;
 import com.jhelper.spring.beans.UserController;
 import com.jhelper.spring.beans.UserRepository;
 import com.jhelper.spring.beans.UserService;
@@ -79,5 +81,19 @@ class BeanDefinitionTest {
     Cube cubeBean = xmlApplicationContext.getBean(Cube.class);
     assertNotNull(cubeBean);
     assertEquals(125, cubeBean.volume(5));
+  }
+
+  @Test
+  void testGetBeanDefinedWithNamedAnnotation() {
+    Hemisphere hemisphereBean = applicationContext.getBean(Hemisphere.class);
+    assertNotNull(hemisphereBean);
+    assertEquals(261.79938779914943, hemisphereBean.volume(5));
+  }
+
+  @Test
+  void testGetBeanDefinedWithManagedBeanAnnotation() {
+    RectangularPrism rectangularPrismBean = applicationContext.getBean(RectangularPrism.class);
+    assertNotNull(rectangularPrismBean);
+    assertEquals(60, rectangularPrismBean.volume(5, 4, 3));
   }
 }

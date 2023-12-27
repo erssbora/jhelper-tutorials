@@ -1,4 +1,4 @@
-# Obtaining the ApplicationContext in bean using the ApplicationContextAware
+# Obtaining the ApplicationContext in a bean using the ApplicationContextAware
 ***
 
 

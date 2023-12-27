@@ -13,12 +13,16 @@
         <module>spring-beans</module>
         <module>spring-beans-injection</module>
         <module>spring-application-context-aware</module>
+        <module>spring-application-context-event</module>
     </modules>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring.version>6.1.1</spring.version>
+        <jakarta.version>2.0.0</jakarta.version>
+        <junit.jupiter.version>5.10.1</junit.jupiter.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -26,30 +30,31 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
-                <version>6.1.1</version>
+                <version>${spring.version}</version>
             </dependency>
 
             <!-- JSR-330 Standard Annotations -->
             <dependency>
                 <groupId>jakarta.inject</groupId>
                 <artifactId>jakarta.inject-api</artifactId>
-                <version>2.0.0</version>
+                <version>${jakarta.version}</version>
             </dependency>
 
             <!-- JSR-250  Annotations -->
             <dependency>
                 <groupId>jakarta.annotation</groupId>
                 <artifactId>jakarta.annotation-api</artifactId>
-                <version>2.0.0</version>
+                <version>${jakarta.version}</version>
             </dependency>
 
             <!-- Test library  -->
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter</artifactId>
-                <version>5.10.1</version>
+                <version>${junit.jupiter.version}</version>
                 <scope>test</scope>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
     <build>

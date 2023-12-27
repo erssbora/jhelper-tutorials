@@ -3,7 +3,6 @@ package com.jhelper.spring.test;
 import com.jhelper.spring.beans.UserService;
 import com.jhelper.spring.config.AppConfig;
 import org.junit.jupiter.api.Test;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.io.IOException;
@@ -15,7 +14,7 @@ class ApplicationContextAwareTest {
 
   @Test
   void testApplicationContextAware() throws IOException {
-    ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
+    AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
 
     UserService userService = applicationContext.getBean(UserService.class);
     assertNotNull(userService);

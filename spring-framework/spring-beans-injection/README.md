@@ -4,9 +4,9 @@ This module include examples demonstrating the injection of beans in Spring usin
 
 * Constructor Injection
 * Setter Method Injection
-* Injecting using **@Autowired**
-* Injecting using **@Inject**
-* Injecting using **@Resource**
+* Injecting using `@Autowired`
+* Injecting using `@Inject`
+* Injecting using `@Resource`
 
 ### Relevant tutorials
 ***TODO ***

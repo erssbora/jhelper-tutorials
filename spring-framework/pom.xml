@@ -14,6 +14,7 @@
         <module>spring-beans-injection</module>
         <module>spring-application-context-aware</module>
         <module>spring-application-context-event</module>
+        <module>spring-bean-definition-registry-post-processor</module>
     </modules>
 
     <properties>

@@ -8,5 +8,5 @@ This module includes examples demonstrating the usage of the `BeanDefinitionRegi
 Build this module by executing the maven command `mvn clean install` from the Command prompt or Terminal.
 
 ### Relevant tutorials
-***TODO ***
+ - [Using BeanDefinitionRegistryPostProcessor in Spring](https://www.jhelper.com/using-beandefinitionregistrypostprocessor-spring)
 

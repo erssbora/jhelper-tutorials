@@ -9,7 +9,7 @@ This module include examples demonstrating the injection of beans in Spring usin
 * Injecting using `@Resource`
 
 ### Relevant tutorials
-***TODO ***
+ - [Injecting beans in Spring](https://www.jhelper.com/injecting-beans-spring)
 
 
 ### Build the Project

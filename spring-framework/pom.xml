@@ -17,6 +17,7 @@
         <module>spring-bean-definition-registry-post-processor</module>
         <module>spring-property-sources-placeholder-config</module>
         <module>spring-application-context-environment</module>
+        <module>spring-i18n-configuration</module>
     </modules>
 
     <properties>

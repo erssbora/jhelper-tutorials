@@ -9,4 +9,4 @@ This module includes examples demonstrating the configuration of the PropertySou
 Build this module by executing the maven command `mvn clean install` from the Command prompt or Terminal.
 
 ### Relevant tutorials
-***TODO ***
+ - [Using PropertySourcesPlaceholderConfigurer in Spring](https://www.jhelper.com/using-propertysourcesplaceholderconfigurer-spring)

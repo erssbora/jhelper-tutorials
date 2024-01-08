@@ -8,5 +8,5 @@ This module includes examples demonstrating the usage of the `@Profile` annotati
 Build this module by executing the maven command `mvn clean install` from the Command prompt or Terminal.
 
 ### Relevant tutorials
-***TODO ***
+ - [Configuring ApplicationContext for different environments](https://www.jhelper.com/configuring-applicationcontext-different-environments)
 

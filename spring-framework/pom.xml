@@ -19,6 +19,7 @@
         <module>spring-application-context-environment</module>
         <module>spring-i18n-configuration</module>
         <module>spring-singleton-bean</module>
+        <module>spring-prototype-bean</module>
     </modules>
 
     <properties>
